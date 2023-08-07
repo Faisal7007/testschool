@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import AdmissionForm from './components/admissionForm/AdmissionForm';
+import Careers from './components/careers/Careers';
+import HeroSection from './components/herosection/HeroSection';
+// https://erudiokids.com/?gclid=Cj0KCQjw2qKmBhCfARIsAFy8buIG8OMQTyB4wdDplG6n6J4f-XHu8lJ_TYOsHcMUx3n-Vxu6VooANsIaAve7EALw_wcB
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <AdmissionForm/> */}
+     <Careers/>
+     {/* <HeroSection/> */}
+
     </div>
   );
 }

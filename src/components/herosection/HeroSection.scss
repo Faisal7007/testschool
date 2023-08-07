@@ -1,0 +1,21 @@
+
+
+
+
+.hero_section{
+   background-image: url('/images/bgImage2-transformed.jpeg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 45vh;
+   width: 100%;
+   position: relative;
+   .title{
+   position: absolute;
+   top: 35%;
+   left: 10%;
+   font-weight: 500;
+   color: rgb(49, 46, 46);
+   
+   }
+}
